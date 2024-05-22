@@ -7,7 +7,7 @@ def load_json(filename):
         return json.load(file)
 
 # Підключення до MongoDB Atlas
-client = MongoClient('mongodb+srv://goitlearn:Asd852654@cluster0.szweo9j.mongodb.net/')
+client = MongoClient('mongodb+srv://goitlearn:qwerty1@cluster0.szweo9j.mongodb.net/')
 db = client.quotes_db
 
 # Завантаження даних з JSON файлів
